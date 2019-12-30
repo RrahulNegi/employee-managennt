@@ -1,20 +1,22 @@
 package com.emp.managment.bean;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee{
 private String name;
-private String salary;
+private Integer salary;
 private String department;
-private int empid;
+private int empId;
 public String getName() {
 	return name;
 }
 public void setName(String name) {
 	this.name = name;
 }
-public String getSalary() {
+public Integer getSalary() {
 	return salary;
 }
-public void setSalary(String salary) {
+public void setSalary(Integer salary) {
 	this.salary = salary;
 }
 public String getDepartment() {
@@ -23,19 +25,13 @@ public String getDepartment() {
 public void setDepartment(String department) {
 	this.department = department;
 }
-public int getEmpid() {
-	return empid;
+public int getEmpId() {
+	return empId;
 }
-public void setEmpid(int empid) {
-	this.empid = empid;
+public void setEmpId(int empId) {
+	this.empId = empId;
 }
-public Employee(String name, String salary, String department, int empid) {
-	super();
-	this.name = name;
-	this.salary = salary;
-	this.department = department;
-	this.empid = empid;
-}
+
 
 }
 

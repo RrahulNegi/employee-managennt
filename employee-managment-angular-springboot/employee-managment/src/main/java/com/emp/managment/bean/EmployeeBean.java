@@ -11,7 +11,7 @@ public class EmployeeBean {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int empId;
 	private String name;
-	private String dept;
+	private String department;
 	private Integer salary;
 	public int getEmpId() {
 		return empId;
@@ -25,11 +25,11 @@ public class EmployeeBean {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDept() {
-		return dept;
+	public String getDepartment() {
+		return department;
 	}
-	public void setDept(String dept) {
-		this.dept = dept;
+	public void setDept(String department) {
+		this.department = department;
 	}
 	public Integer getSalary() {
 		return salary;
